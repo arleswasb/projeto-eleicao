@@ -1,0 +1,13 @@
+"""Agente auditor do BU das Eleições 2026 do RN."""
+from .agent import run_agent
+from .tools import (
+    FUNCTIONS, search_secoes, secao_details, compare_secoes,
+    total_por_tipo, total_sem_biometria,
+)
+from .summary import summary
+
+__all__ = [
+    "run_agent", "FUNCTIONS", "summary",
+    "search_secoes", "secao_details", "compare_secoes",
+    "total_por_tipo", "total_sem_biometria",
+]

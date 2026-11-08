@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+ollama.log
+*.xlsx
+!data/sample_bu.csv
+.DS_Store

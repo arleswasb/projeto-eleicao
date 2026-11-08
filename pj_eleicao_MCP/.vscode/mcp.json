@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "eleicao-rn": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": [
+        "${workspaceFolder}/src/bu_agent/mcp_server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      }
+    }
+  }
+}
